@@ -12,6 +12,13 @@
 
     echo "<h1>Hello $name</h1>";
 
+    $tal1 = 12; // integer
+    $tal2 = (int) "235"; // string
+    $tal3 = true; // boolean
+    $tal4 = (int) 235.235; // double
+    $tal5 = null;
+
+    echo $tal1 + $tal2 + $tal3 + $tal4 + $tal5;
     ?>
 </body>
 </html>
